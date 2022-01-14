@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(to right, #D4D3DD,  #FFC600);
+}
+
+.card-poke {
+    max-width: 15rem;
+    margin: 0 auto;
+}
+
+
+.app {
+    width: 100%;
+    height: auto;
+}
+
+.aud-control {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#lyrics {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#lyrics .kara-text,
+#lyrics .kara-text-highlight {
+    display: inline-block;
+    font-size: 30px;
+    white-space: nowrap;
+}
+
+#lyrics .kara-text {
+    position: relative;
+}
+
+#lyrics .kara-text-highlight {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: violet;
+    text-shadow: 0px 0px 20px violet;
+    overflow: hidden;
+}
+  
